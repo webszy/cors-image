@@ -1,6 +1,6 @@
 {
   "name": "cors-image",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "showing the cors image for vue",
   "main": "dist/cors-image.js",
   "scripts": {
@@ -29,9 +29,9 @@
     "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.2.4",
     "vue-html-loader": "^1.2.4",
-    "vue-loader": "^15.4.2",
-    "vue-style-loader": "^3.0.3",
-    "vue-template-compiler": "^2.5.9",
+    "vue-loader": "^15.9.6",
+    "vue-style-loader": "^3.1.2",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0"
   }
