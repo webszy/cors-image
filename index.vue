@@ -72,5 +72,6 @@ export default {
   top:0;
   background:transparent;
   z-index: 2;
+  cursor: pointer;
 }
 </style>
