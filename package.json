@@ -1,5 +1,5 @@
 {
-  "name": "vue-cors-image",
+  "name": "cors-image",
   "version": "1.0.0",
   "description": "showing the cors image for vue",
   "main": "dist/cors-image.js",
@@ -8,12 +8,13 @@
     "dev": "webpack-dev-server --open --mode development"
   },
   "keywords": [
-    "vue-cors-image",
+    "cors-image",
+    "cors",
     "image"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webszy/vue-cors-image"
+    "url": "git+https://github.com/webszy/cors-image"
   },
   "author": "webszy",
   "license": "MIT",
