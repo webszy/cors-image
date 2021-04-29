@@ -3,5 +3,5 @@
 `cross-origin-resource-policy: same-origin`，
 导致直接img或者背景图无法显示。
 
-#install 安装
+# install 安装
 > npm install vue-cors-image --save

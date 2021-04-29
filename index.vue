@@ -1,13 +1,11 @@
 <template>
-  <div class="_image relative w-full h-full">
-    <div class="w-full h-full absolute left-0 top-0 bg-transparent"></div>
+  <div class="_image">
     <iframe
         ref="iframe"
         referrerpolicy="no-referrer"
         scrolling="no"
         marginheight="0"
         marginwidth="0"
-        class="absolute left-0 top-0  w-full h-full border-none outline-none overflow-hidden object-center"
         :style="style"
         :src="src"
     ></iframe>
@@ -36,9 +34,9 @@ export default {
     }
   },
   mounted(){
-    this.$refs.iframe.addEventListener('load',()=>{
-      console.log('iframe Loaded')
-    })
+    // this.$refs.iframe.addEventListener('load',()=>{
+    //   console.log('iframe Loaded')
+    // })
   }
 }
 </script>
@@ -46,11 +44,33 @@ export default {
 <style scoped>
 ._image{
   cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 ._image iframe{
   z-index: 1;
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  left:0;
+  top:0;
+  border:none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  object-position: center;
 }
-._image div{
+._image:before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  left:0;
+  top:0;
+  background:transparent;
   z-index: 2;
 }
 </style>
