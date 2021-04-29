@@ -1,8 +1,8 @@
 {
   "name": "vue-cors-image",
   "version": "1.0.0",
-  "description": "A test button",
-  "main": "dist/btn.js",
+  "description": "showing the cors image for vue",
+  "main": "dist/cors-image.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --open --mode development"
@@ -13,9 +13,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomaszhou63/test-npm.git"
+    "url": "git+https://github.com/webszy/vue-cors-image"
   },
-  "author": "thomaszhou",
+  "author": "webszy",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
