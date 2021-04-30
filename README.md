@@ -12,4 +12,4 @@
 1. 如果请求头中`x-frame-options: SAMEORIGIN`,那就彻底凉凉了
 2. 性能不好，可能会造成滑动卡顿
 3. 暂时只有vue版本，react版本稍后发布
-4. 移动端上显示可能有问题，暂时无法解决
+4. iOS如果使用了安全距离会自动给内部padding，暂时无法解决，建议去除viewport-fit=cover
